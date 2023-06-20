@@ -4,13 +4,13 @@ import Text from "./Components/Text";
 
 function App() {
   const [string, setString] = useState("");
-const handleString= (e) => {
-  setString(e.target.value)
-}
+  const handleString = (e) => {
+    setString(e.target.value);
+  };
   return (
     <div>
-      <Input onChange={handleString}/>
-      <Text string={string.length}/>
+      <Input onChange={handleString} type="text"/>
+      <Text string={string.length} />
     </div>
   );
 }

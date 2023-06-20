@@ -1,8 +1,6 @@
 /* eslint-disable react/prop-types */
-const Input=({onChange}) => {
-    return(
-        <input type="text" onChange={onChange}/>
-    )
-}
+const Input = ({ type, onChange }) => {
+  return <input type={type} onChange={onChange} />;
+};
 
 export default Input;
