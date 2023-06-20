@@ -4,7 +4,7 @@ import Box from "./Components/Box";
 import "./style.css";
 
 function App() {
-  let colors = ["", "Red", "Blue", "Black", "Pink"];
+  let colors = ["", "Red", "Blue", "Black", "Yellow"];
   const [color, setColor] = useState("");
   const handleSetColor = (e) => {
     setColor(e.target.value);
